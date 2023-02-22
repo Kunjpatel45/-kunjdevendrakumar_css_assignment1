@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Shantell+Sans&display=swap');
+
+/* Type selector example */
+body {
+    border: 20px solid yellow;
+}
+
+/* Class selector example */
+.container {
+
+    margin: 0 auto;
+}
+
+.summary {
+    padding-top: 2rem;
+}
+
+/* ID selector example */
+#header {
+    background-color: #333;
+    color: grey;
+    padding: 10px;
+}
+
+#zen-summary {
+    font-family: 'Babylonica', cursive;
+    font-size: xx-large;
+}
+
+/* Attribute selector example */
+a[href^="text"] {
+    color: blue;
+}
+
+/* Pseudo-class selector example */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Descendant combinator example */
+.container p {
+    font-size: 18px;
+}
+
+/* Child combinator example */
+ul>li {
+    list-style-type: none;
+}
+
+/* Direct sibling combinator example */
+h2+p {
+    margin-top: 0;
+}
+
+/* General sibling combinator example */
+h2~p {
+    font-style: italic;
+}
+
+/* Set a background image or gradient */
+html {
+    background-image: linear-gradient(to bottom, #47ac2e, #a44162);
+}
+
+/* Set font families and sizes */
+body {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 16px;
+    overflow:scroll;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    padding: 50px;
+}
+
+/* Set colors to enhance readability/accessibility */
+body {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+a {
+    color: #00ccff;
+}
+
+/* Set padding and margins to create space between elements */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Add hover effect to buttons */
+body a :hover {
+    background-color: #ffffff;
+    color: #003366;
+    border-color: #003366;
+}
+/*making box*/
+.explanation {
+    width: 30rem;
+    height: 50rem;
+    float: left;
+
+}
+
+.participation {
+    width: 21rem;
+    height: 50rem;
+    float: left;
+    margin-left: 25px;
+}
+
+.benefits {
+    width: 35rem;
+    height: 50rem;
+    float: right;
+}
